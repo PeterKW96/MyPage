@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <main>
+
+      <div class="intro">
+        <h1>Peter Kyngäs Wallin</h1>
+        <p>Newly Graduated Computer Engineer</p>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li class="link">
+            <a id="resumeLink"><i class="fa-solid fa-person"></i>Resume</a>
+          </li>
+
+          <li class="link">
+            <a href="https://www.linkedin.com/in/peter-kyngäs-wallin-397047336" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+          </li>
+
+          <li class="link">
+            <a href="https://github.com/PeterKW96" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project-item">
+            <h3>Project One</h3>
+            <p>Description of project one.</p>
+          </div>
+          <div class="project-item">
+            <h3>Project Two</h3>
+            <p>Description of project two.</p>
+          </div>
+          <div class="project-item">
+            <h3>Project Three</h3>
+            <p>Description of project three.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="resumeModal" class="modal">
+        <div class="modal-content">
+          <span class="close-button" id="closeResumeBtn">&times;</span>
+          <div class="resume-container">
+              <iframe
+                src="resources/Resume_Public.pdf"
+                frameborder="0"
+                scrolling="auto"
+                height="100%"
+                width="100%"
+              ></iframe>
+          </div>
+        </div>
+
+    </main>
+
+    <footer>
+      <p>© 2026 Peter Kyngäs Wallin</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
