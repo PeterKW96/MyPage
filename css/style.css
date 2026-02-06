@@ -135,12 +135,3 @@ a:active {
 i {
     margin-right: 0.5rem;
 }
-
-#resumeLink:hover {
-    cursor: pointer;
-    color: #0077ff;
-}
-
-#resumeLink:active {
-    color: #0055aa;
-}
